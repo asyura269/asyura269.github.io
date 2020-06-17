@@ -65,15 +65,14 @@ body {
 }
 
 .about img {
-    width: 600px;
-    transform: translate(140px,0px) ;
+    width: 100%;
+    max-width: 600px;
     opacity: 0;
     transition: 15s;
 }
 
 .about img.tampil {
     opacity: 1;
-    transform: translate(0,0);
 }
 
 .pKiri, .pKanan {

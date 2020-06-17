@@ -37,7 +37,7 @@ $(window).scroll(function(){
     // End Portfolio
 
     // About
-    if (wScroll > $('.about').offset().top -450) {
+    if (wScroll > $('.about').offset().top -969) {
         $('.pKiri').addClass('tampil');
         $('.pKanan').addClass('tampil');
         $('.about img').addClass('tampil');
